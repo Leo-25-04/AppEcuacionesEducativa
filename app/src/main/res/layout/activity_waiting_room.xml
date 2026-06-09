@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@drawable/bg_gradient"
+    android:padding="@dimen/spacing_xl">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="⏳"
+        android:textSize="64sp"/>
+
+    <TextView
+        android:id="@+id/tv_room_code"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sala: ------"
+        android:textSize="@dimen/text_xxl"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/spacing_lg"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/waiting_for_teacher"
+        android:textSize="@dimen/text_lg"
+        android:textColor="@color/white"
+        android:layout_marginTop="@dimen/spacing_md"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:indeterminateTint="@color/white"
+        android:layout_marginTop="@dimen/spacing_xl"/>
+
+</LinearLayout>

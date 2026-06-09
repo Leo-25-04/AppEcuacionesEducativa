@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="120dp"
+    android:height="120dp"
+    android:viewportWidth="120"
+    android:viewportHeight="120">
+
+    <!-- Fondo círculo -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M60,10 A50,50 0 1,1 59.99,10 Z"/>
+
+    <!-- Símbolo X (ecuación) -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="6"
+        android:strokeLineCap="round"
+        android:pathData="M35,45 L55,75 M55,45 L35,75"/>
+
+    <!-- Signo igual -->
+    <path
+        android:strokeColor="#FF6F00"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M65,52 L85,52 M65,63 L85,63"/>
+
+    <!-- Número resultado -->
+    <path
+        android:strokeColor="#1565C0"
+        android:strokeWidth="5"
+        android:strokeLineCap="round"
+        android:pathData="M93,45 L93,75"/>
+</vector>

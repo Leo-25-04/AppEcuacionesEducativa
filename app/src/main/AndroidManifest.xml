@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <uses-permission android:name="android.permission.VIBRATE"/>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.EcuAprendeJugando">
+
+        <activity android:name=".SplashActivity"
+            android:exported="true"
+            android:noHistory="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".OnboardingActivity" android:exported="false"/>
+        <activity android:name=".RoleSelectorActivity" android:exported="false"/>
+        <activity android:name=".CreditsActivity" android:exported="false"/>
+        <activity android:name=".SettingsActivity" android:exported="false"/>
+
+        <!-- Student -->
+        <activity android:name=".student.StudentDashboardActivity" android:exported="false"/>
+        <activity android:name=".student.TopicsActivity" android:exported="false"/>
+        <activity android:name=".student.TheoryContentActivity" android:exported="false"/>
+        <activity android:name=".student.GuidedExampleActivity" android:exported="false"/>
+        <activity android:name=".student.ExerciseActivity" android:exported="false"/>
+        <activity android:name=".student.EnterRoomCodeActivity" android:exported="false"/>
+        <activity android:name=".student.WaitingRoomActivity" android:exported="false"/>
+        <activity android:name=".student.CollaborativeGameActivity" android:exported="false"/>
+        <activity android:name=".student.IndividualResultsActivity" android:exported="false"/>
+        <activity android:name=".student.ProgressActivity" android:exported="false"/>
+        <activity android:name=".student.ProfileActivity" android:exported="false"/>
+
+        <!-- Teacher -->
+        <activity android:name=".teacher.TeacherDashboardActivity" android:exported="false"/>
+        <activity android:name=".teacher.CreateRoomActivity" android:exported="false"/>
+        <activity android:name=".teacher.RoomAdminActivity" android:exported="false"/>
+        <activity android:name=".teacher.StartActivityActivity" android:exported="false"/>
+        <activity android:name=".teacher.GeneralResultsActivity" android:exported="false"/>
+        <activity android:name=".teacher.TeacherProfileActivity" android:exported="false"/>
+
+    </application>
+
+</manifest>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="@dimen/spacing_xl"
+    android:background="@color/background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="🎮"
+        android:textSize="64sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Unirse a Sala"
+        android:textSize="@dimen/text_xxl"
+        android:textStyle="bold"
+        android:textColor="@color/text_primary"
+        android:layout_marginTop="@dimen/spacing_md"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/enter_code"
+        android:textSize="@dimen/text_md"
+        android:textColor="@color/text_secondary"
+        android:layout_marginTop="@dimen/spacing_sm"/>
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/spacing_lg"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/et_room_code"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Ej: ABC123"
+            android:inputType="textCapCharacters"
+            android:maxLength="6"
+            android:textSize="@dimen/text_xl"
+            android:gravity="center"
+            android:letterSpacing="0.3"/>
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/btn_join"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:text="Entrar a la Sala"
+        android:layout_marginTop="@dimen/spacing_lg"
+        style="@style/ButtonAccent"/>
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/btn_height"
+        android:text="@string/btn_back"
+        android:layout_marginTop="@dimen/spacing_sm"
+        style="@style/ButtonOutlined"/>
+
+</LinearLayout>

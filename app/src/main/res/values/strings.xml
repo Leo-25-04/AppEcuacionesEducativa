@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EcuAprendeJugando</string>
+    <string name="app_tagline">Aprende ecuaciones jugando</string>
+
+    <string name="role_student">Soy Alumno</string>
+    <string name="role_teacher">Soy Profesor</string>
+    <string name="select_role">¿Cómo quieres entrar?</string>
+
+    <string name="btn_continue">Continuar</string>
+    <string name="btn_back">Regresar</string>
+    <string name="btn_start">Comenzar</string>
+    <string name="btn_finish">Finalizar</string>
+    <string name="btn_next">Siguiente</string>
+    <string name="btn_try_again">Intentar de nuevo</string>
+
+    <string name="topics_title">Temas</string>
+    <string name="progress_title">Mi Progreso</string>
+    <string name="profile_title">Mi Perfil</string>
+    <string name="join_room">Unirse a Sala</string>
+    <string name="enter_code">Ingresa el código de sala</string>
+    <string name="waiting_room_title">Sala de Espera</string>
+    <string name="waiting_for_teacher">Esperando al profesor…</string>
+    <string name="exercise_title">Ejercicio</string>
+    <string name="theory_title">Teoría</string>
+    <string name="example_title">Ejemplo Guiado</string>
+
+    <string name="create_room">Crear Sala</string>
+    <string name="room_code_label">Código de sala</string>
+    <string name="students_connected">Alumnos conectados</string>
+    <string name="start_activity">Iniciar Actividad</string>
+    <string name="general_results">Resultados Generales</string>
+
+    <string name="points_label">Puntos</string>
+    <string name="level_label">Nivel</string>
+    <string name="streak_label">Racha</string>
+    <string name="achievements_label">Logros</string>
+    <string name="correct_answer">¡Correcto!</string>
+    <string name="wrong_answer">Incorrecto, intenta de nuevo</string>
+    <string name="points_earned">+%d puntos</string>
+
+    <string name="credits_title">Créditos</string>
+    <string name="credits_version">Versión 1.0 — Prototipo</string>
+    <string name="credits_tools">Herramientas: Android Studio, Java, Claude AI</string>
+
+    <string name="settings_title">Configuración</string>
+    <string name="settings_sound">Sonido</string>
+    <string name="settings_haptic">Vibración táctil</string>
+    <string name="settings_notifications">Notificaciones</string>
+</resources>
