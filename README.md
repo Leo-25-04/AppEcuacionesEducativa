@@ -1,4 +1,4 @@
-#App Educativa de Ecuaciones con IA Generativa
+# App Educativa de Ecuaciones con IA Generativa
 
 Proyecto para la materia de Desarrollo Móvil.
 
